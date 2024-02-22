@@ -1,0 +1,64 @@
+body {
+  font-size: 24px;
+}
+
+.border {
+  border: 1px solid salmon;
+}
+
+#top-bar {
+  position: relative;
+  height: 20px;
+}
+
+#top-bar #home-button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: pink;
+}
+
+#top-bar #call-to-action {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: lightblue;
+}
+
+#paragraph {
+  position: absolute;
+  top: 25%;
+  height: 50%;
+  width: 100%;
+  border: 2px solid blue;
+}
+
+#bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#one {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: 1px solid blue;
+}
+
+#two {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border: 1px solid blue;
+}
+
+#three {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 1px solid blue;
+}

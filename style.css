@@ -1,4 +1,40 @@
-body {
-  padding: 0;
-  margin: 0;
+h1 {
+  font-size: 32px;
+  color: #14b5a8;
+}
+
+h2 {
+  color: white;
+  background-color: black;
+}
+
+.border-red-family {
+  border: 1px solid red;
+}
+
+.drop-shadow {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  position: relative;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+}
+
+.container h3 {
+  font-size: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.container h1 {
+  position: fixed;
+  background: green;
+  width: 50%;
+  height: 100px;
+  bottom: 0;
+  left: 0;
 }
