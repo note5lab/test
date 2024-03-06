@@ -1,0 +1,48 @@
+body {
+  background: black;
+}
+
+div {
+  font-size: 48px;
+  border: 2px solid salmon;
+}
+
+.logo {
+  background: pink;
+  color: white;
+  padding: 20px;
+}
+
+.menu {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.menu-item {
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.profile {
+  background: white;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.flex {
+  background: yellow;
+  border: 1px solid salmon;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
